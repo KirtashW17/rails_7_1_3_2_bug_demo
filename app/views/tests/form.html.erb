@@ -1,0 +1,3 @@
+<%= form_tag '', method: :post do %>
+  <%= button_tag 'submit', type: 'submit', data: {turbo: false}, formaction: url_for(action: 'form') %>
+<% end %>
